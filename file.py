@@ -1,10 +1,17 @@
-"""
-Create a Python file named lab_7-3.py
+#Author-Ryan Rinvil
+def greeting():
+    """
+    This function prints 'Hello World' on one line.
+    """
+    print("Hello World!")
+    return greeting.__doc__
 
-*** You must write a comment for every chunk of code you write from now on along with your author tag***
+greeting()
 
-Copy your lab 7-1 code into the file
-Add 4 test cases to the end of the file, with comments
-Ensure your lab runs accurately
+print(greeting())
+# Test cases
+# Test case 1: Verify that the function returns the docstring
+# Test case 2: Verify the return value matches the docstring
+# Test case 3: Verify the function prints "Hello World!"
+# Test case 4: Verify the function works
 
-"""
